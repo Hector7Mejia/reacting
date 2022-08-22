@@ -1,8 +1,8 @@
-import LoginCard from './components/Login/LoginCard';
+import AddUser from "./components/Users/AddUser";
 
 function App() {
     return (
-        <LoginCard/>
+        <AddUser/>
     );
 }
 

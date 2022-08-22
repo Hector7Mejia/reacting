@@ -21,6 +21,8 @@ const AddUser = props => {
         if(+enteredAge < 1) {
             return;
         }
+        //this function was created and passed down as props in App.js as the addUserHandler.Here it being called on props and is being used in conjuction with the username/age state
+        props.onAddUser(enteredUsername,enteredAge);
         setEnteredUsername("");
         setEnteredAge("");
     }

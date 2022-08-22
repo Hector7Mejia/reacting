@@ -1,9 +1,9 @@
+import LoginCard from './components/LoginCard';
+
 function App() {
-  return (
-    <div>
-      <h2>Let's get started!</h2>
-    </div>
-  );
+    return (
+        <LoginCard/>
+    );
 }
 
 export default App;
